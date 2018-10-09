@@ -5,8 +5,8 @@
   "devDependencies": {
     "canonical-path": "0.0.2",
     "dgeni": "^0.4.1",
-    "dgeni-markdown": "0.0.3",
-    "dgeni-packages": "^0.10.6",
+    "dgeni-markdown": "0.0.5",
+    "dgeni-packages": "^0.26.10",
     "grunt-banner": "^0.4.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "~0.4.1",
@@ -41,5 +41,8 @@
     "type": "git",
     "url": "git://github.com/caseyjhol/ng-bootstrap-select.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  }
 }
